@@ -25,7 +25,7 @@ jobs:
       - name: Export Longform PDF
         uses: docker://pandoc/latex:latest
         with:
-          args: -f markdown -s --highlight-style pygments -t pdf -o BuildVsUse_Longform.pdf Cheatsheet.md
+          args: -f markdown -s --syntax-highlight pygments -t pdf -o BuildVsUse_Longform.pdf Cheatsheet.md
 
       - name: Print directory
         run: ls -a
