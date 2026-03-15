@@ -6,6 +6,8 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v6
@@ -41,6 +43,7 @@ jobs:
         if: endswith(github.ref, 'main')
         uses: mydea/action-tag-date-version@20.11.0
         id: version-tag
+        permission: write
 
       - name: Cut a release (main only)
         uses: ncipollo/release-action@v1
