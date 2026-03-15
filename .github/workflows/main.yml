@@ -43,7 +43,6 @@ jobs:
         if: endswith(github.ref, 'main')
         uses: mydea/action-tag-date-version@20.11.0
         id: version-tag
-        permission: write
 
       - name: Cut a release (main only)
         uses: ncipollo/release-action@v1
