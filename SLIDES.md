@@ -7,6 +7,10 @@ style: |
         margin-top: 1em;
         align: center;
     }
+
+    h1, h2 {
+        text-shadow: 0 0.3em 1em gray;
+    }
     
 ---
 
@@ -29,15 +33,7 @@ At that point, you will have a choice whether to ***write the functionality your
 
 ---
 
-### Josh Schneider
-
-**Currently**: AppSec Engineer
-**Formerly**: Test Automation Engineer/Architect, Product Owner, Support Specialist
-**Always**: Nerd, movie quoter
-
----
-
-### Anyone remember this movie?
+## Anyone remember this movie?
 
 ![bg fit right](img/slidingDoorsPoster.png)
 
@@ -91,7 +87,8 @@ _class: invert
 
 ---
 
-### Reflection
+## Reflection
 
-* Building yourself costs you initial speed for long-term control and customization. With great power, comes great responsibility... meaning new features, fixes, and support are all on you.
-* Using an existing solution rewards you with immediate velocity, and some built-in support community; but at the cost of having to work on someone else's schedule, and giving you the responsibility of keeping up with the solution as it matures to ensure you stay ahead of bugs and security issues.
+* Building yourself costs you initial speed for long-term control and customization. *With great power, comes great responsibility*... meaning new features, fixes, and support are all on you.
+
+* Using an existing solution rewards you with immediate velocity, and some built-in support community; but at the cost of control and having to work on someone else's schedule, and giving you the responsibility of keeping up with the solution as it matures to ensure you stay ahead of bugs and security issues.
