@@ -17,7 +17,7 @@ style: |
 # Build Vs Use
 
 **Josh Schneider**
-Github: [@dijital20](https://github.com/dijital20)
+Github: [@dijital20](https://github.com/dijital20) / [talk-build-v-use](https://github.com/dijital20/talk-build-v-use)
 Mastodon: [mastodon.social/@diji](https://mastodon.social/@diji)
 
 <!-- 
