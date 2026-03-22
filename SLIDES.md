@@ -29,7 +29,7 @@ _class: invert
 
 In any project of a certain size, you will come across a point where you need a feature that isn't provided by the language or standard library. 
 
-At that point, you will have a choice whether to ***write the functionality yourself*** or ***pull in some hopefully brilliant, well-maintained, secure bit of third party code that does the job for you***.
+At that point, you will have a choice whether to ***write the functionality yourself*** or ***pull in some bit of third party code that does the job for you***.
 
 ---
 
@@ -39,10 +39,10 @@ At that point, you will have a choice whether to ***write the functionality your
 
 ---
 
-## What if we built it ourselves?
+## *...What if we built it ourselves?*
 
 <!-- 
-footer: What if we built it ourselves?
+footer: ...What if we built it ourselves?
 _footer: ""
 _class: invert
  -->
@@ -53,7 +53,7 @@ _class: invert
 
 ---
 
-* Speed of delivery
+* Speed of delivery (or lack thereof)
 * Bespoke fit
 * Documentation and Support (or lack thereof)
 * Bug fixes
@@ -95,10 +95,10 @@ _class: invert
 
 ---
 
-## What if we used something?
+## *...What if we used something?*
 
 <!-- 
-footer: What if we used something?
+footer: ...What if we used something?
 _footer: ""
 _class: invert
  -->
@@ -109,7 +109,7 @@ _class: invert
 
 ---
 
-* Speed of delivery (or lack thereof)
+* Speed of delivery
 * Off-the-peg fit
 * Documentation and Support
 * Bug fixes
@@ -150,17 +150,15 @@ _class: invert
 
 ---
 
-## Reflecting
+## Reflection
 
 <!--
-footer: Reflecting 
+footer: Reflection 
 _footer: ""
 _class: invert
  -->
 
 ---
-
-## Reflection
 
 * Building yourself costs you initial speed for long-term control and customization. *With great power, comes great responsibility*... meaning new features, fixes, and support are all on you.
 
@@ -171,4 +169,3 @@ _class: invert
 
     In Timeline B, you gained _immediate_ velocity and offloaded responsibility to the maintainers and the community. Every advantage comes with a tradeoff: you're working within someone else's constraints, dependent on their release schedule, and somewhat insulated from—but not exempt from—the underlying problems your code depends on. But you also gain the benefit of an existing knowledge base and community support, reducing your own documentation and support burden.
  -->
- 
